@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+    <title>Periodic Table Element Finder</title>
+</head>
+<body>
+
+    <h1>Non-Metal Elements</h1>
+    <h3>instructions: Enter the symbol of a non-metal element (Example: H, O, Cl, Ne, Xe)</h3>
+    <form>
+        <input type="text" id="input1" placeholder="Enter an element symbol"><br>
+        <input type="button" py-click="element" value="View details">
+    </form>
+
+            <div id="result"></div>
+    <script type="py" src="main.py"></script>
+</body>
+</html>
